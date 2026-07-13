@@ -1,0 +1,65 @@
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-self: flex-end;
+}
+
+.externalLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.linkButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-white);
+    border-radius: 50%;
+    background-color: var(--color-gray);
+    width: 42px;
+    height: 42px;
+    margin: 10px 5px;
+    transition: .3s;
+}
+
+.linkButton img{
+    width: 20px;
+    height: 20px;
+}
+
+.linkButton:hover{
+    background-color: var(--color-blue);
+}
+
+.linkButton img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+}
+
+.linkButton:hover img {
+    transform: scale(1.15);
+}
+
+.cv-button {
+    background: var(--color-blue);
+    color: var(--color-white);
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s ease;
+    display: inline-block;
+    width: max-content; 
+    flex-shrink: 0;
+    white-space: nowrap; 
+}
+
+.cv-button:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    transform: translateY(-2px);
+}

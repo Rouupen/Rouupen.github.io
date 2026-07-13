@@ -1,0 +1,122 @@
+.aboutme {
+    background: linear-gradient(to top, rgba(30, 35, 38, 0.457), rgba(30, 35, 38, 0.667));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 20px 80px;
+}
+
+.aboutme .container-banner {
+    max-width: 1100px;
+    background-color: var(--color-bg-card);
+    border-radius: 10px;
+    padding: 40px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.aboutme .aboutme-title {
+    font-size: 36px;
+    color: var(--color-white);
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+}
+
+.aboutme .banner-body {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+
+.aboutme .banner-left {
+    width: 280px; 
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.aboutme .banner-image img {
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
+
+.aboutme .banner-content {
+    flex: 1;
+}
+
+.aboutme .about-text-container p {
+    font-size: 14px;
+    color: var(--color-white);
+    line-height: 1.6;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.aboutme .about-text-container p:last-child {
+    margin-bottom: 0;
+}
+
+.aboutme .banner-footer {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.aboutme .footer-left-social {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.aboutme .socialMedia {
+    display: flex;
+    gap: 20px;
+}
+
+.aboutme .footer-right-cv {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* --- Smartphones --- */
+@media (max-width: 768px) {
+    .aboutme .banner-body,
+    .aboutme .banner-footer {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+    
+    .aboutme .banner-left,
+    .aboutme .footer-left-social,
+    .aboutme .footer-right-cv {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .aboutme .banner-image img {
+        width: 240px;
+    }
+    
+    .aboutme .about-text-container p {
+        text-align: center;
+    }
+}

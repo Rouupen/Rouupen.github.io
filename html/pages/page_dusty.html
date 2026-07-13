@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="project.dusty.title" class="project-title"></title>
+    <link rel="icon" href="../../icons/icon.svg?v=1" type="image/svg+xml">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- PRISM -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-clike.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-csharp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
+    
+    <!-- Code-->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header"></div>
+<video autoplay muted loop playsinline poster="https://res.cloudinary.com/iaubh7gg/image/upload/v1783279828/dusty_poster_zwgcd0.jpg" id="bg-video">
+    <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279847/dusty_bg_gradient_2k_30fps_lgkspc.webm" type="video/webm">
+    <source src="../../vids/dusty/dusty_bg_gradient_2k_30fps.webm" type="video/webm">
+</video>
+    <!-- <video autoplay muted loop playsinline id="bg-video"><source src="../../vids/dusty/dusty_bg_gradient_2k_30fps.webm" type="video/webm"></video> -->
+
+    <div class="container_project">
+        <section class="project-page">
+
+            <!-- Header -->
+            <div class="project-header">
+                <h1 data-i18n="project.dusty.title" class="project-title"></h1>
+
+                <p data-i18n="project.dusty.subtitle.software.used" class="project-subtitle"></p>
+                <p data-i18n="project.dusty.subtitle.languages.used" class="project-subtitle"></p>
+                <p data-i18n="project.dusty.subtitle.project.type" class="project-subtitle"></p>
+                <p data-i18n="project.dusty.subtitle.project.duration" class="project-subtitle"></p>
+
+                <div class="externalLinks">
+                    <a class="linkButton" href="https://store.steampowered.com/app/3174280/Dusty/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="../../icons/steam.svg">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project description -->
+            <div class="project-description">
+                <p data-i18n="project.dusty.about.one"></p>
+            </div>
+
+            <!-- Game video and game description -->
+            <div class="project-video">
+                <!-- Video -->
+                <iframe src="https://www.youtube.com/embed/rX7hSrcB61Y" title="Dusty video" allowfullscreen></iframe>
+
+                <!-- Description -->
+                <div class="project-video-description">
+                    <p data-i18n="project.dusty.video.description"></p>
+                </div>
+            </div>
+
+
+            <!-- Accordion States Machine -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.dusty.accordion.one.title" class="accordion-header"></div>
+
+                    <div class="accordion-content">
+
+                        <p data-i18n="project.dusty.accordion.one.content.one"></p>
+
+                        <!-- Code base state -->
+                        <div class="code-header">BaseState.h</div>
+                        <pre><code id="code-base-state" class="language-csharp"></code></pre>
+
+                        <br>
+                        <p data-i18n="project.dusty.accordion.one.content.two"></p>
+                        <!-- Code action filter -->
+                        <div class="code-header">ActionsFilter.h</div>
+                        <pre><code id="code-action-filter-h" class="language-csharp"></code></pre>
+
+                        <!-- Code action filter -->
+                        <div class="code-header">ActionsFilter.cpp</div>
+                        <pre><code id="code-action-filter-cpp" class="language-csharp"></code></pre>
+
+                        <br>
+                        <p data-i18n="project.dusty.accordion.one.content.three"></p>
+                        <!-- Code data asset -->
+                        <div class="code-header">DataAsset.h</div>
+                        <pre><code id="code-states-data-asset" class="language-csharp"></code></pre>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Accordion Animation Instance -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.dusty.accordion.two.title" class="accordion-header"></div>
+
+                    <div class="accordion-content">
+                        <p data-i18n="project.dusty.accordion.two.content.one"></p>
+                        <picture>
+                            <source srcset="https://res.cloudinary.com/iaubh7gg/image/upload/v1783279827/blend_locomotion_eq95fz.png" type="image/webp">
+                            <img src="../../imgs/dusty/blend_locomotion.png" alt="Dusty IK Rig" class="project-image">
+                        </picture>
+                        <video autoplay loop muted playsinline preload="none">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279835/aim_jqwzpr.webm" type="video/webm">
+                            <source src="../../vids/dusty/aim.webm" type="video/webm">
+                        </video>
+                        
+                        <p data-i18n="project.dusty.accordion.two.content.two"></p>
+                        <picture>
+                            <source srcset="https://res.cloudinary.com/iaubh7gg/image/upload/v1783279828/ground_actions_zbkdev.png" type="image/webp">
+                            <img src="../../imgs/dusty/ground_actions.png" alt="Dusty IK Rig" class="project-image">
+                        </picture>
+                        <picture>
+                            <source srcset="https://res.cloudinary.com/iaubh7gg/image/upload/v1783279828/jump_air_actions_ncx8ux.png" type="image/webp">
+                            <img src="../../imgs/dusty/jump_air_actions.png" alt="Dusty IK Rig" class="project-image">
+                        </picture>
+                        <video autoplay loop muted playsinline preload="none">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279840/other_anims_q4ibxk.webm" type="video/webm">
+                            <source src="../../vids/dusty/other_anims.webm" type="video/webm">
+                        </video>
+                        
+                        
+                        <p data-i18n="project.dusty.accordion.two.content.three"></p>
+                        <picture>
+                            <source srcset="https://res.cloudinary.com/iaubh7gg/image/upload/v1783279828/strafe_locomotion_qhqwkk.png" type="image/webp">
+                            <img src="../../imgs/dusty/strafe_locomotion.png" alt="Dusty IK Rig" class="project-image">
+                        </picture>
+                        <p data-i18n="project.dusty.accordion.two.content.four"></p>
+                        <video autoplay loop muted playsinline preload="none">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279841/walk_aim_pf25xo.webm" type="video/webm">
+                            <source src="../../vids/dusty/walk_aim.webm" type="video/webm">
+                        </video>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion IK Rig -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.dusty.accordion.three.title" class="accordion-header"></div>
+
+                    <div class="accordion-content">
+                        <p data-i18n="project.dusty.accordion.three.content.one"></p>
+                        <picture>
+                            <source srcset="https://res.cloudinary.com/iaubh7gg/image/upload/v1783279828/foot_ik_twuc8x.png" type="image/webp">
+                            <img src="../../imgs/dusty/foot_ik.png" alt="Dusty IK Rig" class="project-image">
+                        </picture>
+                        <video autoplay loop muted playsinline preload="none">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279839/platform1_noonqe.webm" type="video/webm">
+                            <source src="../../vids/dusty/platform1.webm" type="video/webm">
+                        </video>
+                        <video autoplay loop muted playsinline preload="none">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279838/platform2_gzauno.webm" type="video/webm">
+                            <source src="../../vids/dusty/platform2.webm" type="video/webm">
+                        </video>
+                        <video autoplay loop muted playsinline preload="none">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279841/walk_stairs_bn02xh.webm" type="video/webm">
+                            <source src="../../vids/dusty/walk_stairs.webm" type="video/webm">
+                        </video>
+                        <p data-i18n="project.dusty.accordion.three.content.two"></p>
+                        <video autoplay loop muted playsinline preload="none">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279839/look_sbdy83.webm" type="video/webm">
+                            <source src="../../vids/dusty/look.webm" type="video/webm">
+                        </video>
+                        <p data-i18n="project.dusty.accordion.three.content.three"></p>
+                        <video autoplay loop muted playsinline preload="none">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279841/soft_bodies_qybxbm.webm" type="video/webm">
+                            <source src="../../vids/dusty/soft_bodies.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Accordion Other -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.dusty.accordion.four.title" class="accordion-header"></div>
+                    
+                    <div class="accordion-content">
+                        <p data-i18n="project.dusty.accordion.four.content.one"></p>
+                        <video controls preload="metadata">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279854/dusty_otros_g1nw5g.webm" type="video/webm">
+                            <source src="../../vids/dusty/dusty_otros.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="../../js/script.js"></script>
+
+</body>
+
+</html>

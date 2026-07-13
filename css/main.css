@@ -1,0 +1,32 @@
+@import "header.css";
+@import "aboutme.css";
+@import "projects.css";
+@import "contact.css";
+@import "footer.css";
+@import "page_projects.css";
+@import "links_buttons.css";
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    --color-red: #fc1d5e;
+    --color-blue: #41befc;
+    --color-green: #20feb0;
+    --color-yellow: #fbdf61;
+    --color-gray: #ffffff36;
+    --color-white: #fcfeff;
+    --color-white-transparent: #fcfeffb9;
+    --color-bg: #1b2630;
+    --color-bg-card: #000000cb;
+    --color-non-selected: #34485b;
+    --color-selected: #1b2630;
+    --color-footer: #1b1b1b;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+

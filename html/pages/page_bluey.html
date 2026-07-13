@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="project.bluey.title" class="project-title"></title>
+    <link rel="icon" href="../../icons/icon.svg?v=1" type="image/svg+xml">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- PRISM -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-clike.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-csharp.min.js"></script>
+    
+    <!-- Code -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <!-- BG -->
+    <video autoplay muted loop playsinline poster="https://res.cloudinary.com/iaubh7gg/image/upload/v1783279828/bluey_poster_jcep6m.jpg" id="bg-video">
+        <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279833/bluey_bg_gradient_2k_30fps_v1oia7.webm" type="video/webm">
+        <source src="../../vids/bluey/bluey_bg_gradient_2k_30fps.webm" type="video/webm">
+    </video>
+
+    <div class="container_project">
+
+        <section class="project-page">
+
+            <!-- Header -->
+            <div class="project-header">
+                <h1 data-i18n="project.bluey.title" class="project-title"></h1>
+
+                <p data-i18n="project.bluey.subtitle.software.used" class="project-subtitle"></p>
+                <p data-i18n="project.bluey.subtitle.languages.used" class="project-subtitle"></p>
+                <p data-i18n="project.bluey.subtitle.project.type" class="project-subtitle"></p>
+                <p data-i18n="project.bluey.subtitle.project.duration" class="project-subtitle"></p>
+
+                <div class="externalLinks">
+                    <a class="linkButton" href="https://store.steampowered.com/app/2078350/Bluey_The_Videogame/?l=english" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="../../icons/steam.svg">
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Project description -->
+            <div class="project-description">
+                <p data-i18n="project.bluey.about.one" style="white-space: pre-line;"></p>
+            </div>
+
+            <!-- Game video and game description -->
+            <div class="project-video">
+                <!-- Video -->
+                <iframe src="https://www.youtube.com/embed/aSDQ5lrNZ9A" title="YouTube video" allowfullscreen></iframe>
+
+                <!-- Description -->
+                <div class="project-video-description">
+                    <p data-i18n="project.bluey.video.description"></p>
+                </div>
+            </div>
+
+            <!-- Project description -->
+            <div class="project-description">
+                <p data-i18n="project.bluey.about.two" style="white-space: pre-line;"></p>
+            </div>
+
+            <!-- Accordion Episode System -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.bluey.accordion.one.title" class="accordion-header"></div>
+
+                    <div class="accordion-content">
+
+                        <p data-i18n="project.bluey.accordion.one.content.one" style="white-space: pre-line;"></p>
+
+                        <br>
+                        <!-- Code episode scriptable object -->
+                        <div class="code-header">EpisodeScriptableObject.cs</div>
+                        <pre><code id="code-episode-scriptable-object" class="language-csharp"></code></pre>
+                        <p data-i18n="project.bluey.accordion.one.content.two" style="white-space: pre-line;"></p>
+                        
+                        <br>
+                        <!-- Code checkpoint base -->
+                        <div class="code-header">CheckpointBase.cs</div>
+                        <pre><code id="code-checkpoint-base" class="language-csharp"></code></pre>
+                        <p data-i18n="project.bluey.accordion.one.content.three" style="white-space: pre-line;"></p>
+                        
+                        <br>
+                        <!-- Code cinematic checkpoint -->
+                        <div class="code-header">CinematicCheckpoint.cs</div>
+                        <pre><code id="code-cinematic-checkpoint" class="language-csharp"></code></pre>
+                        <p data-i18n="project.bluey.accordion.one.content.four" style="white-space: pre-line;"></p>
+
+                        <br>
+                        <!-- Code mission checkpoint -->
+                        <div class="code-header">MissionCheckpoint.cs</div>
+                        <pre><code id="code-mission-checkpoint" class="language-csharp"></code></pre>
+                        <p data-i18n="project.bluey.accordion.one.content.five" style="white-space: pre-line;"></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Cinematic System -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.bluey.accordion.two.title" class="accordion-header"></div>
+
+                    <div class="accordion-content">
+                        <p data-i18n="project.bluey.accordion.two.content.one" style="white-space: pre-line;"></p>
+                        <video controls preload="metadata">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279834/bluey_cinematic_system_dpyq5g.webm" type="video/webm">
+                            <source src="../../vids/bluey/bluey_cinematic_system.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Activities System -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.bluey.accordion.three.title" class="accordion-header"></div>
+
+                    <div class="accordion-content">
+                        <p data-i18n="project.bluey.accordion.three.content.one" style="white-space: pre-line;"></p>
+                        <video controls preload="metadata">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279847/bluey_activities_kp5ota.webm" type="video/webm">
+                            <source src="../../vids/bluey/bluey_activities.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Player Actions-->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.bluey.accordion.four.title" class="accordion-header"></div>
+
+                    <div class="accordion-content">
+                        <p data-i18n="project.bluey.accordion.four.content.one" style="white-space: pre-line;"></p>
+                        <video autoplay loop muted playsinline>
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279850/bluey_player_actions_ifqg6v.webm" type="video/webm">
+                            <source src="../../vids/bluey/bluey_player_actions.webm" type="video/webm">
+                        </video>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Problems and Tools -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.bluey.accordion.five.title" class="accordion-header"></div>
+
+                    <div class="accordion-content">
+                        <p data-i18n="project.bluey.accordion.five.content.one" style="white-space: pre-line;"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Menus and HUDs -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.bluey.accordion.six.title" class="accordion-header"></div>
+
+                    <div class="accordion-content">
+                        <p data-i18n="project.bluey.accordion.six.content.one" style="white-space: pre-line;"></p>
+                        <video controls preload="metadata">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279843/bluey_menus_huds_w7r1qs.webm" type="video/webm">
+                            <source src="../../vids/bluey/bluey_menus_huds.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Accordion IA -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.bluey.accordion.seven.title" class="accordion-header"></div>
+                    
+                    <div class="accordion-content">
+                        <p data-i18n="project.bluey.accordion.seven.content.one" style="white-space: pre-line;"></p>
+                        <video controls preload="metadata">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279847/bluey_ia_bwofe6.webm" type="video/webm">
+                            <source src="../../vids/bluey/bluey_ia.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Accordion Camera -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div data-i18n="project.bluey.accordion.eight.title" class="accordion-header"></div>
+                    
+                    <div class="accordion-content">
+                        <p data-i18n="project.bluey.accordion.eight.content.one" style="white-space: pre-line;"></p>
+                        <video controls preload="metadata">
+                            <source src="https://res.cloudinary.com/iaubh7gg/video/upload/v1783279847/bluey_camera_efu8pl.webm" type="video/webm">
+                            <source src="../../vids/bluey/bluey_camera.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+    <div id="footer"></div>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>

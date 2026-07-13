@@ -1,0 +1,11 @@
+.vscode/
+.idea/
+*.suo
+*.sln
+*.swp
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+node_modules/

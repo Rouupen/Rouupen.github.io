@@ -1,0 +1,9 @@
+.container_footer {
+    background-color: var(--color-footer);
+    padding: 10px;
+    text-align: center;
+}
+
+.container_footer  p{
+    color: var(--color-white);
+}
